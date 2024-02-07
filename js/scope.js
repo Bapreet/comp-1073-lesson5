@@ -1,3 +1,16 @@
+let x = 1;
+let z = 3;
+function myFunction() {
+    console.log("x = " + x);
+    let y = 2;
+    console.log("z = " + z);
+    myOtherFunction(y);
+}
+
+function myOtherFunction(someVar) {
+    console.log("y = " + someVar);   
+}
+
 // STEP 1: Declare and initialize a global variable (x = 1)
 
 
